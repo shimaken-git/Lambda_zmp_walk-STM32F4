@@ -1,3 +1,4 @@
+
 # Lambda_zmp_walk-STM32F4
 This project is walk pattern generate programs of the bipedal robot.
 The means of walk pattern generation uses a dynamics filter using online pattern generation of the walk pattern generation to assume ZMP placed in the written by Shuuji Kajita "[humanoid robot][]" a model and the foresee control.
@@ -28,3 +29,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+# Lambda
+![Lambda](lambda_20180309.JPG)
+
+Lambda is small bipedal robot developed for the study of the walk.
+The actuator uses a servomotor for hobby robots.
+The foot joint structure of the lambda does special structure.
+I introduce joint structure of the lambda by the maintenance of the future document.
