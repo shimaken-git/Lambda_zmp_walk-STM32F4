@@ -1,21 +1,3 @@
- When you want to continue a walk, 
- 
-\> c ( or cont)
-
- or
- 
-\> c 1
-
- or
- 
-\> c 1 70 0.4 10
-
-When you want to stop a walk,
-
-\> s ( or stop)
-
-
-
 # Lambda_zmp_walk-STM32F4
 このプログラムは二足歩行ロボットの歩容生成プログラムです。
 梶田秀司博士著「ヒューマノイドロボット」に掲載されている、ZMPを規範とした歩容生成法の、オンライン生成と動力学フィルターを実装しました。
