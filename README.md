@@ -65,17 +65,17 @@ Next, you let you walk the robot.
  
  When you want to continue a walk, 
  
-\> c ( or cont)
+\> cont ( or c)
 
  or
  
-\> c 1
+\> cont 1 : curve=1
 
  or
  
-\> c 1 70 0.4 10
+\> cont 1 70 0.4 10 : curve stride=70mm pace=0.4sec steps=10steps
 
 When you want to stop a walk,
 
-\> s ( or stop)
+\> stop ( or s)
 
