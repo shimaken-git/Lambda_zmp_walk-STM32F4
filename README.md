@@ -41,8 +41,9 @@ I introduce joint structure of the lambda by the maintenance of the future docum
 
 # Usage
 You perform the operation of the robot from a console connected to UART.
+The communication with the higher CPU uses this UART, too. When The Robot stoods up, he confirms specific FLASH domain and judge it whether he is connected to the CPU, or he is connected to the console.
 
-At first you switch of the lower body of the robot.
+At first you switch of the lower body (in other words it is both legs) of the robot.
 
 \> lbp default 1 20 : robot power on lower body at default parameters.
  
@@ -50,7 +51,7 @@ At first you switch of the lower body of the robot.
  
 \> lbp 106.8 0 320 0 1 20 : robot power on lower body at setting paremeters. width=106.8mm depth=0mm height=320mm hung_at_freeleg=0mm center of mass adjustment=ON servo moving speed=20cycles(0.02sec/cycle)
  
-Next, you switch of the upper body of the robot.
+Next, you switch of the upper body (it's both arms) of the robot.
 
 \> ubp default 20
  
