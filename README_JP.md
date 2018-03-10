@@ -1,3 +1,19 @@
+ When you want to continue a walk, 
+ 
+\> c ( or cont)
+
+ or
+ 
+\> c 1
+
+ or
+ 
+\> c 1 70 0.4 10
+
+When you want to stop a walk,
+
+\> s ( or stop)
+
 
 
 # Lambda_zmp_walk-STM32F4
@@ -51,4 +67,19 @@ UARTに接続したコンソールで操作します。
  
 \> zmp 0 70 0.5 10  ← パラメータを指定して歩かせます。モード=0(直進) 歩幅=70mm ペース=0.5秒 歩数=10歩 
  
+ 歩行を継続したい場合は、 
  
+\> cont ( c でもよい)
+
+ or
+ 
+\> cont 1   ←　デフォルト値でカーブ歩行で継続
+
+ or
+ 
+\> cont 1 70 0.4 10　←　設定したパラメータ値で歩行継続　カーブ　歩幅70mm　ペース0.4秒　歩数10歩
+
+歩行を停止したい場合は、
+
+\> stop ( s でもよい)
+
