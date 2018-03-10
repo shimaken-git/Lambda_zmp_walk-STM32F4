@@ -63,4 +63,19 @@ Next, you let you walk the robot.
  
 \> zmp 0 70 0.5 10  : robot walk at setting parameters mode=0(strate) stride=70mm pace=0.5sec steps=10steps 
  
+ When you want to continue a walk, 
  
+\> c ( or cont)
+
+ or
+ 
+\> c 1
+
+ or
+ 
+\> c 1 70 0.4 10
+
+When you want to stop a walk,
+
+\> s ( or stop)
+
